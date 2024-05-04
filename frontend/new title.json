@@ -1,0 +1,32 @@
+{
+    "id": "modulePage",
+    "elementList": [
+             {
+                     "type": "backbutton"
+              },
+              {
+                      "type": "newButton",
+                      "name":  "Neues Modul",
+                      "icon": "fa-user",
+                      "color": "green",
+                      "width": 2,
+                       "form" : {
+                         "form" : "ModuleForm"
+               }
+            }
+        ]
+    },
+    {
+        "id": "ModuleForm",
+        "title": "Module",
+        "formFieldList": [
+            {
+                "name": "Name",
+                "description": "Enter module description here"
+            }
+
+
+        
+        ]
+        } 
+     
